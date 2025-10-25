@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor Romano</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+    <h1>🧮 Conversor Romano</h1>
+
+    <div class="converter">
+        <div class="card">
+            <h2>Entero → Romano</h2>
+            <input type="number" id="entero" placeholder="Ej: 1994" />
+            <button id="toRoman">Convertir</button>
+            <p id="resultadoRomano" class="resultado"></p>
+        </div>
+
+        <div class="card">
+            <h2>Romano → Entero</h2>
+            <input type="text" id="romano" placeholder="Ej: MCMXCIV" />
+            <button id="toEntero">Convertir</button>
+            <p id="resultadoEntero" class="resultado"></p>
+        </div>
+    </div>
+
+            <!-- Botón de restablecer -->
+        <div class="reset-container">
+            <button id="reset">🔄 Restablecer</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
